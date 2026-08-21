@@ -4,7 +4,7 @@ import os
 
 load_dotenv()
 
-api_key = "eaf690451509490894f49122cab11345"
+api_key = os.getenv("NEWS_API_KEY")
 
 url = "https://newsapi.org/v2/top-headlines"
 
